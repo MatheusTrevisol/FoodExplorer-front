@@ -31,7 +31,7 @@ export const Content = styled.main`
   align-items: center;
 
   gap: 1.6rem;
-  padding: 3.7rem 5.6rem 5.4rem;
+  padding: 2rem;
 
   @media (min-width: 1368px) {
     width: 100%;
@@ -44,9 +44,8 @@ export const Content = styled.main`
   }
 
   > button {
-    width: 100%;
     display: flex;
-    align-items: center;
+    align-self: flex-start;
     justify-content: flex-start;
 
     color: ${({ theme }) => theme.COLORS.LIGHT_300};
@@ -69,8 +68,8 @@ export const Content = styled.main`
   }
 
   .detail-image {
-    width: 26.4rem;
-    height: 26.4rem;
+    width: 20.4rem;
+    height: 20.4rem;
     
     @media (min-width: 1368px) {
       width: 39.9rem;
@@ -103,7 +102,6 @@ export const InfoCard = styled.div`
   gap: 4.8rem;
 
   > #text-div {
-    width: 31.6rem;
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
@@ -141,7 +139,6 @@ export const InfoCard = styled.div`
   }
 
   #editButton {
-    width: 13.1rem;
     padding: 1.2rem 2.4rem;
 
     @media (max-width: 1367px) {
@@ -155,7 +152,6 @@ export const Tags = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 31.6rem;
   gap: 2.4rem;
 
   @media (min-width: 1368px) {
