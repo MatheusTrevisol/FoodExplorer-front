@@ -141,8 +141,8 @@ export const InfoCard = styled.div`
   #editButton {
     padding: 1.2rem 2.4rem;
 
-    @media (max-width: 1367px) {
-      width: 100%;
+    @media (min-width: 1368px) {
+      max-width: 30rem;
     }
   }
 `;
