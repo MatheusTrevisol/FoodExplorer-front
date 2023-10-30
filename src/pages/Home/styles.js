@@ -101,6 +101,7 @@ export const Box = styled.div`
     align-items: center;
     text-align: center;
     padding: 0;
+    z-index: 5;
   }
 
   img {
@@ -108,6 +109,10 @@ export const Box = styled.div`
     z-index: 2;
     left: -3rem;
     top: -29px;
+
+    @media (max-width: 416px) {
+      opacity: 0.2;
+    }
 
     @media (min-width: 1368px) {
       width: 63.2rem;
